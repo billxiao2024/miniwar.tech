@@ -1,0 +1,40 @@
+{
+  "game": {
+    "name": "Mini War",
+    "robloxId": "27816428837",
+    "developer": "mayrushart",
+    "genre": "Strategy / Simulation",
+    "currentVersion": "1.0",
+    "lastUpdated": "2026-05-28",
+    "platforms": ["PC", "Mobile"]
+  },
+  "stats": {
+    "visits": "1.2M",
+    "favorites": "85K",
+    "onlineNow": "3,400",
+    "serverSize": 50,
+    "active": true
+  },
+  "seo": {
+    "siteTitle": "Mini War Roblox Guide & Tools (2026)",
+    "siteDescription": "The ultimate Mini War Roblox companion — codes, progression calculator, tier list, and guides. Updated daily.",
+    "baseUrl": "https://miniwar.tech",
+    "primaryKeywords": ["Mini War Roblox", "Mini War Roblox codes", "Mini War Roblox guide"],
+    "secondaryKeywords": ["Mini War Roblox tips", "Mini War Roblox mechs", "Mini War Roblox update", "Mini War Roblox army"],
+    "defaultOgImage": "/og-default.jpg"
+  },
+  "routes": [
+    { "path": "/", "title": "Home", "priority": "1.0" },
+    { "path": "/codes", "title": "Codes", "priority": "0.9" },
+    { "path": "/calculator", "title": "Calculator", "priority": "0.9" },
+    { "path": "/tier-list", "title": "Tier List", "priority": "0.9" },
+    { "path": "/beginner-guide", "title": "Beginner Guide", "priority": "0.8" },
+    { "path": "/updates", "title": "Updates", "priority": "0.8" },
+    { "path": "/wiki", "title": "Wiki", "priority": "0.7" },
+    { "path": "/tips", "title": "Tips & Tricks", "priority": "0.7" }
+  ],
+  "calculator": {
+    "type": "progression",
+    "dataFile": "calculator-progression.json"
+  }
+}

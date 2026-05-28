@@ -1,0 +1,66 @@
+[
+  {
+    "code": "MINIWAR2026",
+    "reward": "$5,000 Cash + 3 Infantry Units",
+    "source": "mayrushart YouTube",
+    "addedDate": "2026-05-20",
+    "status": "active",
+    "isNew": true
+  },
+  {
+    "code": "FARMSTART",
+    "reward": "500 Gold + Farm Upgrade",
+    "source": "Roblox Event",
+    "addedDate": "2026-05-15",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "MECHUPGRADE",
+    "reward": "1 Free Mech Unit",
+    "source": "CashBlox YouTube",
+    "addedDate": "2026-05-10",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "TANKFURY",
+    "reward": "3 Tank Vouchers",
+    "source": "mayrushart YouTube",
+    "addedDate": "2026-04-28",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "HELICOPTER100",
+    "reward": "2 Helicopter Units",
+    "source": "Community Event",
+    "addedDate": "2026-04-20",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "MILITARY500",
+    "reward": "$10,000 Cash",
+    "source": "Roblox Creator",
+    "addedDate": "2026-04-10",
+    "status": "active",
+    "isNew": false
+  },
+  {
+    "code": "STRATEGY2026",
+    "reward": "Factory Speed Boost (24h)",
+    "source": "Game Update v1.2",
+    "addedDate": "2026-03-28",
+    "status": "expired",
+    "isNew": false
+  },
+  {
+    "code": "INFANTRYBOSS",
+    "reward": "10 Infantry Units",
+    "source": "Community Event",
+    "addedDate": "2026-03-15",
+    "status": "expired",
+    "isNew": false
+  }
+]

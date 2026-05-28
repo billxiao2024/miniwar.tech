@@ -1,0 +1,184 @@
+{
+  "gameName": "Mini War Progression Calculator",
+  "lastUpdated": "2026-05-28",
+  "description": "Calculate the most efficient farming routes and progression paths in Mini War Roblox. Find out how to earn money fastest and level up your army.",
+  "activities": [
+    {
+      "id": "farm-basic",
+      "name": "Basic Farm",
+      "description": "Entry-level farming. Best for beginners.",
+      "levelRequired": 1,
+      "goldPerHour": 1500,
+      "expPerHour": 200,
+      "riskLevel": "Low",
+      "bestUnits": ["Infantry"],
+      "strategy": "Start here to accumulate initial gold for factory upgrades."
+    },
+    {
+      "id": "factory-production",
+      "name": "Factory Production",
+      "description": "Industrial income source. Requires factory building.",
+      "levelRequired": 5,
+      "goldPerHour": 4500,
+      "expPerHour": 450,
+      "riskLevel": "Low",
+      "bestUnits": ["Infantry", "Worker Mech"],
+      "strategy": "Build factories early to unlock passive income. Prioritize upgrades."
+    },
+    {
+      "id": "resource-node",
+      "name": "Resource Node",
+      "description": "High-yield mining nodes. Moderate danger.",
+      "levelRequired": 10,
+      "goldPerHour": 8500,
+      "expPerHour": 700,
+      "riskLevel": "Medium",
+      "bestUnits": ["Worker Mech"],
+      "strategy": "Unlocks after first factory. Use worker mechs for efficiency."
+    },
+    {
+      "id": "military-mission",
+      "name": "Military Mission",
+      "description": "Combat missions with high rewards.",
+      "levelRequired": 15,
+      "goldPerHour": 15000,
+      "expPerHour": 1200,
+      "riskLevel": "High",
+      "bestUnits": ["Infantry", "Tank"],
+      "strategy": "Battle enemy bases for bonus gold. Bring tanks for heavy zones."
+    },
+    {
+      "id": "boss-raid",
+      "name": "Boss Raid",
+      "description": "End-game boss encounters. Massive rewards.",
+      "levelRequired": 25,
+      "goldPerHour": 35000,
+      "expPerHour": 2500,
+      "riskLevel": "Very High",
+      "bestUnits": ["Mech", "Tank", "Helicopter"],
+      "strategy": "Coordinate combined arms. Use helicopters for mobility, tanks for damage."
+    },
+    {
+      "id": "air-strike",
+      "name": "Air Strike Operation",
+      "description": "Helicopter-only missions.",
+      "levelRequired": 20,
+      "goldPerHour": 25000,
+      "expPerHour": 1800,
+      "riskLevel": "High",
+      "bestUnits": ["Helicopter"],
+      "strategy": "Requires helicopter units. Best money per hour for air-focused players."
+    },
+    {
+      "id": "defense-contract",
+      "name": "Defense Contract",
+      "description": "Defend your base from waves. Passive but steady.",
+      "levelRequired": 8,
+      "goldPerHour": 6000,
+      "expPerHour": 500,
+      "riskLevel": "Medium",
+      "bestUnits": ["Infantry", "Mech"],
+      "strategy": "Repel waves to earn contract bonus. Low risk steady income."
+    }
+  ],
+  "units": [
+    {
+      "id": "infantry",
+      "name": "Infantry",
+      "cost": 100,
+      "power": 10,
+      "bestFor": ["Early farm", "Defense", "Swarm tactics"],
+      "tier": "C"
+    },
+    {
+      "id": "worker-mech",
+      "name": "Worker Mech",
+      "cost": 500,
+      "power": 30,
+      "bestFor": ["Resource gathering", "Factory work"],
+      "tier": "B"
+    },
+    {
+      "id": "mech",
+      "name": "Combat Mech",
+      "cost": 2000,
+      "power": 120,
+      "bestFor": ["Mid-game combat", "Boss raids"],
+      "tier": "A"
+    },
+    {
+      "id": "helicopter",
+      "name": "Helicopter",
+      "cost": 5000,
+      "power": 250,
+      "bestFor": ["Air strike", "Fast mobility"],
+      "tier": "A"
+    },
+    {
+      "id": "tank",
+      "name": "Tank",
+      "cost": 8000,
+      "power": 450,
+      "bestFor": ["Heavy assault", "Boss damage"],
+      "tier": "S"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "farm",
+      "name": "Farm",
+      "cost": 500,
+      "income": 1500,
+      "unlockLevel": 1,
+      "description": "Basic income building. Generates passive gold over time."
+    },
+    {
+      "id": "factory",
+      "name": "Factory",
+      "cost": 3000,
+      "income": 4500,
+      "unlockLevel": 5,
+      "description": "Industrial production. Multiplies farm output."
+    },
+    {
+      "id": "barracks",
+      "name": "Barracks",
+      "cost": 2500,
+      "income": 2000,
+      "unlockLevel": 8,
+      "description": "Trains infantry units. Required for military missions."
+    },
+    {
+      "id": "mech-bay",
+      "name": "Mech Bay",
+      "cost": 8000,
+      "income": 6000,
+      "unlockLevel": 12,
+      "description": "Produces combat mechs. Essential for late-game progression."
+    },
+    {
+      "id": "airport",
+      "name": "Airport",
+      "cost": 15000,
+      "income": 12000,
+      "unlockLevel": 18,
+      "description": "Deploys helicopters. Unlocks air strike operations."
+    },
+    {
+      "id": "military-base",
+      "name": "Military Base",
+      "cost": 25000,
+      "income": 20000,
+      "unlockLevel": 25,
+      "description": "Maximum military infrastructure. Enables boss raids."
+    }
+  ],
+  "progressionTips": [
+    "Always upgrade your farm first — passive income compounds.",
+    "Factory unlocks at level 5 — prioritize reaching it.",
+    "Save gold for Combat Mechs — they dominate mid-game.",
+    "Helicopters unlock air strike missions at level 20.",
+    "Tanks are the most powerful single unit — prioritize if going heavy assault.",
+    "Diversify your army — combined arms always beats single unit spam."
+  ]
+}

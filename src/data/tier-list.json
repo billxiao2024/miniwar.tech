@@ -1,0 +1,178 @@
+{
+  "lastUpdated": "2026-05-28",
+  "description": "Official tier list for all units and buildings in Mini War Roblox. Rankings based on power, cost efficiency, and strategic value.",
+  "tiers": [
+    {
+      "tier": "S",
+      "color": "#ef4444",
+      "bgColor": "bg-red-500/10",
+      "borderColor": "border-red-500/30",
+      "description": "Top-tier. Must-have for any competitive strategy."
+    },
+    {
+      "tier": "A",
+      "color": "#f97316",
+      "bgColor": "bg-orange-500/10",
+      "borderColor": "border-orange-500/30",
+      "description": "Excellent. Strong choice for most strategies."
+    },
+    {
+      "tier": "B",
+      "color": "#eab308",
+      "bgColor": "bg-yellow-500/10",
+      "borderColor": "border-yellow-500/30",
+      "description": "Good. Solid mid-game options."
+    },
+    {
+      "tier": "C",
+      "color": "#6b7280",
+      "bgColor": "bg-gray-500/10",
+      "borderColor": "border-gray-500/30",
+      "description": "Average. Early game or niche use."
+    }
+  ],
+  "units": [
+    {
+      "id": "tank",
+      "name": "Tank",
+      "category": "Heavy Armor",
+      "tier": "S",
+      "cost": 8000,
+      "power": 450,
+      "mobility": "Low",
+      "damage": "Very High",
+      "health": 800,
+      "specialAbility": "High damage dealer, best for boss raids",
+      "bestSynergy": ["Infantry", "Helicopter"],
+      "counterTo": ["Worker Mech", "Infantry"],
+      "weakAgainst": [],
+      "description": "The ultimate heavy hitter. Tanks dominate late-game battles and boss raids with unmatched damage output."
+    },
+    {
+      "id": "helicopter",
+      "name": "Helicopter",
+      "category": "Air",
+      "tier": "S",
+      "cost": 5000,
+      "power": 250,
+      "mobility": "Very High",
+      "damage": "High",
+      "health": 300,
+      "specialAbility": "Fast deployment, air strike capability",
+      "bestSynergy": ["Tank", "Infantry"],
+      "counterTo": ["Worker Mech"],
+      "weakAgainst": ["Anti-Air Units"],
+      "description": "Air superiority unit. Unlocks the most profitable farming activity (Air Strike Operation) and provides unmatched mobility."
+    },
+    {
+      "id": "combat-mech",
+      "name": "Combat Mech",
+      "category": "Mech",
+      "tier": "A",
+      "cost": 2000,
+      "power": 120,
+      "mobility": "Medium",
+      "damage": "High",
+      "health": 400,
+      "specialAbility": "Balanced stats, versatile combat role",
+      "bestSynergy": ["Infantry", "Factory"],
+      "counterTo": ["Worker Mech"],
+      "weakAgainst": ["Tank"],
+      "description": "The workhorse of mid-game. Combat Mechs provide the best cost-to-power ratio for sustained farming operations."
+    },
+    {
+      "id": "worker-mech",
+      "name": "Worker Mech",
+      "category": "Utility",
+      "tier": "B",
+      "cost": 500,
+      "power": 30,
+      "mobility": "Medium",
+      "damage": "Low",
+      "health": 200,
+      "specialAbility": "Resource gathering bonus",
+      "bestSynergy": ["Farm", "Factory"],
+      "counterTo": [],
+      "weakAgainst": ["Combat Mech", "Tank"],
+      "description": "Economic powerhouse. Worker Mechs boost resource gathering, making them essential for early-to-mid game economy."
+    },
+    {
+      "id": "infantry",
+      "name": "Infantry",
+      "category": "Infantry",
+      "tier": "C",
+      "cost": 100,
+      "power": 10,
+      "mobility": "High",
+      "damage": "Low",
+      "health": 50,
+      "specialAbility": "Fast to produce, cheap to replace",
+      "bestSynergy": ["Barracks", "Defense Contracts"],
+      "counterTo": [],
+      "weakAgainst": ["Any combat unit"],
+      "description": "Cannon fodder with strategic value. Infantry are cheap and fast to produce, perfect for swarm tactics and defense waves."
+    }
+  ],
+  "buildings": [
+    {
+      "id": "military-base",
+      "name": "Military Base",
+      "category": "Military",
+      "tier": "S",
+      "cost": 25000,
+      "income": 20000,
+      "unlockLevel": 25,
+      "description": "End-game military infrastructure. Unlocks the most profitable content including boss raids."
+    },
+    {
+      "id": "airport",
+      "name": "Airport",
+      "category": "Air",
+      "tier": "A",
+      "cost": 15000,
+      "income": 12000,
+      "unlockLevel": 18,
+      "description": "Air power hub. Required for helicopter deployment and air strike missions."
+    },
+    {
+      "id": "mech-bay",
+      "name": "Mech Bay",
+      "category": "Industrial",
+      "tier": "A",
+      "cost": 8000,
+      "income": 6000,
+      "unlockLevel": 12,
+      "description": "Combat Mech production facility. Essential mid-game building."
+    },
+    {
+      "id": "barracks",
+      "name": "Barracks",
+      "category": "Military",
+      "tier": "B",
+      "cost": 2500,
+      "income": 2000,
+      "unlockLevel": 8,
+      "description": "Infantry training facility. Enables military mission access."
+    },
+    {
+      "id": "factory",
+      "name": "Factory",
+      "category": "Industrial",
+      "tier": "B",
+      "cost": 3000,
+      "income": 4500,
+      "unlockLevel": 5,
+      "description": "Industrial multiplier. Boosts overall income output significantly."
+    },
+    {
+      "id": "farm",
+      "name": "Farm",
+      "category": "Economy",
+      "tier": "C",
+      "cost": 500,
+      "income": 1500,
+      "unlockLevel": 1,
+      "description": "Starter building. Provides baseline passive income. Upgrade priority is low after early game."
+    }
+  ]
+}
